@@ -1,0 +1,117 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+body{
+    height:100%;
+    width:100%;
+ }
+
+#top{
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    color: rgb(225, 255, 0);
+    text-decoration: dotted;
+    background-color: rgb(165, 42, 124);
+    height: max-content;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    
+    
+}
+.card{
+    position: fixed;
+     top: 50%;
+    left: 50%;
+   /* transform: translate(-50%,-50%); */
+    height: 330px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: salmon;
+    overflow: hidden;
+
+
+}
+#card1{
+    z-index: 7;
+    transform: translate(-50%,-50%);
+}
+
+#card2{
+    
+    transform: translate(-50%,-50%)rotate(-7deg);
+    z-index: 6;
+    
+    background-color: chartreuse;
+   
+
+}
+#card3
+{
+    transform: translate(-50%,-50%)rotate(-14deg);
+    z-index: 5;
+    
+    background-color: yellow;
+
+}
+
+#card4{
+    transform: translate(-50%,-50%)rotate(-21deg);
+    z-index: 4;
+    background-color: blueviolet ;
+    
+
+}
+#card5{
+    transform: translate(-50%,-50%)rotate(-28deg);
+    z-index: 3;
+    background-color: blueviolet ;
+
+}
+#card6{
+    transform: translate(-50%,-50%)rotate(-35deg);
+    z-index: 2;
+    background-color: blueviolet ;
+
+}
+#card7{
+    transform: translate(-50%,-50%)rotate(-42deg);
+    z-index: 1;
+    background-color: blueviolet ;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+} 
+#card2:hover{
+    z-index:10; 
+}
+#card3:hover{
+    z-index: 10; 
+}
+#card4:hover{
+    z-index:10; 
+}
+#card5:hover{
+    z-index: 10;
+}
+#card6:hover{
+    z-index: 10;
+}
+#card7:hover{
+    z-index: 10;
+}
